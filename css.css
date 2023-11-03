@@ -1,0 +1,189 @@
+.container-fluid {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    /* border: 1px solid green; */
+}
+body{
+  background-color: #181A1B;
+}
+#pipi{
+  /* border: 1px solid red; */
+  height: 50vh;
+  background-position: center;
+  background-image: url(imagem/capa2.jpg);
+  background-repeat: no-repeat;
+}
+
+#pepe{
+  /* border: 1px solid yellow; */
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -70px;
+  /* position: absolute; */
+}
+.box{
+
+  background-color: black;
+  width: 300px;
+  height: 350px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+#cor{
+  color: white;
+}
+.paragrafo{
+  margin-bottom: 30px;
+}
+#img_box{
+  width: 130px;
+  /* margin-top: -150px; */
+  /* border: 1px solid yellow; */
+}
+.img_gambi{
+  /* border: 1px solid red; */
+  margin-top: 30px;
+  width: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 40px; */
+}
+.h1_gambi{
+  /* border: 1px solid yellow; */
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p_gambi{
+  /* border: 1px solid yellow; */
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.hhh{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cabecalho{
+  /* border: 1px solid red; */
+  height: 200px;
+  width: auto;
+  margin-top: 80px;
+  /* margin-left: 300px; */
+}
+#icon_capa{
+  width: 60px;
+  position: absolute;
+
+}
+.bot{
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+.bot:hover{
+  background-color: green;
+}
+
+
+
+
+@media (max-width: 1309px) {
+    .container-fluid {
+        background-color: #181A1B;
+    }
+    #merda{
+      display: none;
+    }
+    #pepe{
+      /* border: 1px solid red; */
+      width: 100vw;
+      margin-top: -4vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box{
+      background-color: black;
+
+    }
+    #pipi{
+      /* border: 1px solid red; */
+      width: 100vw;
+    }
+    .cabecalho{
+      margin-top: 4vh;
+      /* margin-bottom: 200px; */
+      /* border: 1px solid yellow; */
+    }
+
+}
+
+
+
+}
+@media (max-width: 920px) {
+    .container-fluid {
+        /* background-color: red; */
+    }
+    #merda{
+      display: flex;
+    }
+    .box{
+      background-color: black;
+      /* width: 80%; */
+    }
+    #pipi{
+      /* border: 1px solid red; */
+      width: 100vw;
+    }
+    .cabecalho{
+      /* border: 1px solid red; */
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1281px) {
+    .h1_gambi{
+      font-size: 20px;
+
+    }
+    .p_gambi{
+      /* border: 1px solid red; */
+      /* margin: 0; */
+      width: 100%;
+      /* font-size: 10px; */
+    }
+    .container-fluid {
+        background-color: #181A1B;
+    }
+    #merda{
+      display: none;
+    }
+    #pepe{
+      /* border: 1px solid red; */
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box{
+      margin-right: 10px;;
+      background-color: black;
+      width: 24%;
+    }
+}
