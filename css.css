@@ -10,6 +10,9 @@
 body{
   background-color: #181A1B;
 }
+#href{
+  text-decoration: none;
+}
 #pipi{
   /* border: 1px solid red; */
   height: 50vh;
@@ -100,6 +103,80 @@ body{
   background-color: green;
 }
 
+/* =================================================== */
+/* login.html */
+
+.log1{
+  /* border: 1px solid red; */
+  width: 70%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url(imagem/capa5.jpg);
+  background-position: center;
+}
+.log2{
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 30%;
+  box-sizing: border-box;
+  float: right;
+}
+.logo_logo{
+  /* position: fixed;
+  top: 0; */
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  /* margin-bottom: 20px; */
+}
+#login_img{
+  width: 150px;
+  max-width: 100%;
+  /* border: 1px solid green; */
+}
+#text_login {
+  color: #AFA89E;
+  margin-bottom: 10px;
+}
+#text_login_p {
+  color: #AFA89E;
+  margin-bottom: 10px;
+}
+.body_login{
+  overflow: hidden;
+}
+.imput{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+margin-top: 30px;
+}
+.input2{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+#inp{
+  width: 50%;
+  background-color: #333333;
+  border-radius: 20px;
+  color: white;
+}
+/* ======================================================= */
 
 
 
@@ -137,6 +214,11 @@ body{
 
 
 }
+
+
+
+}
+
 @media (max-width: 920px) {
     .container-fluid {
         /* background-color: red; */
@@ -187,3 +269,71 @@ body{
       width: 24%;
     }
 }
+
+@media (max-width: 1219px){
+  #text_login{
+    /* border: 1px solid yellow; */
+    font-size: 35px;
+    margin-top: 10px;
+  }
+  @media (max-width: 1086px){
+    #text_login{
+      /* border: 1px solid red; */
+      font-size: 30px;
+      margin-top: 10px;
+    }
+    @media (max-width: 946px){
+      #text_login{
+        /* border: 1px solid green; */
+        font-size: 25px;
+        margin-top: 10px;
+      }
+    }
+      @media (max-width: 920px){
+        .logo_logo{
+          /* border: 1px solid white; */
+          /* margin-top: 50px; */
+        }
+        .teste_login{
+          /* border: 1px solid red; */
+          /* width: 100vw; */
+          margin-top: 80px;
+        }
+        #text_login{
+
+          /* border: 1px solid white; */
+          /* font-size: 35px; */
+          margin-top: 10px;
+        }
+        .log1{
+          display: none;
+        }
+        .log2{
+          width: 100vw;
+        }
+      }
+
+      @media (max-width: 400px){
+        .logo_logo{
+          /* border: 1px solid white; */
+
+          /* margin-bottom: -70px; */
+        }
+        .teste_login{
+          /* border: 1px solid green; */
+          /* width: 100vw; */
+          margin-top: 50px;
+        }
+        #text_login{
+
+          /* border: 1px solid yellow; */
+          /* font-size: 35px; */
+          margin-top: 10px;
+        }
+        .log1{
+          display: none;
+        }
+        .log2{
+          width: 100vw;
+        }
+      }
