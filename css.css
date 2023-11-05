@@ -180,14 +180,54 @@ margin-top: 30px;
 
 /* ====================quadro.html=========================== */
 .tetinha{
-border: 1px solid yellow;
+/* border: 1px solid yellow; */
 height: 70vh;
+}
+
+.info_quadro{
+  width: 100vw;
+  height: auto;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.info_linha{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  /* border: 1px solid red; */
+  margin-right: 10px;
+}
+.miudo{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.miudo_alugada{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: red;
+  border-radius: 5px;
+}
+#nene{
+  color: white;
+
+}
+h1{
+  color: white;
 }
 .pepe_quadro{
 /* margin-top: -280px; */
 
 border: 1px solid green;
-background-color: #707070;
+background-color: #323235;
 border-radius: 10px;
 height: auto;
 width: 95%;
@@ -200,33 +240,65 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin: 10px;
   width: 100vw;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-.box_chave{
-  margin: 5px 10px 5px 10px;
-  width: 250px;
-  height: 70px;
-  border: 1px solid white;
-  border-radius: 5px;
-}
 .tag{
   height: 100%;
-  width: 20px;
+  width: 10%;
   background-color: #BAD669;
+  border-radius: 5px 0px 0px 5px;
   /* border-radius: 0px 5px 5px 0px; */
 }
 .tag1{
   height: 100%;
-  width: 20px;
+  width: 10%;
   background-color: red;
+  border-radius: 5px 0px 0px 5px;
   /* border-radius: 0px 5px 5px 0px; */
 }
+.box_chave{
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  /* overflow-y: auto; */
+  margin: 5px 10px 5px 10px;
+  width: 250px;
+  height: 75px;
+  max-height: 150px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
 
+.nome_quadro{
+  margin-left: 5%;
+  /* border: 1px solid red; */
+  width: 60%;
+  height: 100%;
+  /* display: flex;
+justify-content: center;
+align-items: center; */
+overflow-y: auto;
+/* padding: 10%; */
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* Largura da barra de rolagem */
+}
+.numero_chave{
+  display: flex;
+justify-content: center;
+align-items: center;
+  border-left: 1px solid green;
+  width: 25%;
+  height: 100%;
+  float: right;
+}
 #pipi_quadro{
   display: flex;
   justify-content: center;
@@ -239,10 +311,11 @@ align-items: center;
 
 .cabecalho_quadro{
   /* margin-top: -130px; */
-
+  margin-top: 10px;
+  margin-bottom: 20px;
   width: 100%;
-  height: 10vh;
-  border: 1px solid red;
+  height: 5vh;
+  border-bottom: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
